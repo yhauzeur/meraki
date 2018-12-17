@@ -20,6 +20,12 @@
   font-size: 0.8em;
   line-height: 10px;
 }
-.mainColor {
+#mainColor {
   color: #f45f47;
+}
+.card h2,
+.card-body h2,
+.card p,
+.card-body p {
+  color: #000;
 }

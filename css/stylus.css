@@ -9,7 +9,7 @@
 }
 .bar-notorange {
   margin-top: 20px;
-  padding-left: 30%;
+  padding-left: 40%;
   padding-right: 5%;
 }
 #img-fixed {
@@ -28,4 +28,20 @@
 .card p,
 .card-body p {
   color: #000;
+}
+.card {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+#bk {
+  color: #000;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+.firstcharacter {
+  font-size: 2em;
+  margin: 0px;
+  padding: 0px;
 }

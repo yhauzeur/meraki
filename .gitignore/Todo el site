@@ -1,15 +1,22 @@
-Todo el site
-	cambiar fotos
-	página contacto
-	texto de cierre al fina lde la web
+Buenos días René, te muestro los detalles que hacen falta de la web en este tipo de árbol:
 
-home
-	testimonios
+Falta de:
+Todo el site
+	1. cambiar fotos
+	2. página contacto
+	3. texto de cierre al final de las web
+--------------------------------------
+home (web)
+	testimonios (sección)
 		texto descriptivo
 		videos
-	nuestro equipo
+	nuestro equipo (sección)
 		fotos equipo
 		descripción breve
 
-sobre
-	video de licenza
+sobre (web)
+	video de Meraki (sección)
+
+Temporalmente la web está ubicada e nmi repositorio personal. Ahora podremos hacer los cambios de imágenes y detalles que hacen falta.
+
+https://redchainco.github.io/Meraki/index.html

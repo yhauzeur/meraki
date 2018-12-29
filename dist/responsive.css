@@ -1,4 +1,4 @@
-/*  Extra small devices (portrait phones, less than 576px)   */
+display: block;/*  Extra small devices (portrait phones, less than 576px)   */
 
 @media (max-width: 575px) {
     .select_lng {
@@ -263,7 +263,7 @@
 
     .home_slider .swiper-slide .btn_b2 a.btn.main-btn {
         padding: 7px 11px !important;
-        width: 100px;
+        /*width: 100px;*/
         font-size: 14px;
     }
 
@@ -351,12 +351,12 @@
     }
 
     nav.navbar-expand-sm .navbar-collapse {
-        display: flow-root !important;
+        /*display: flow-root !important;*/
         -ms-flex-preferred-size: auto;
         flex-basis: none !important;
         width: 100% !important;
         overflow: overlay;
-        max-height: 300px;
+        /*max-height: 300px;*/
     }
 
     .float-right.head_feedbck.flex-row {

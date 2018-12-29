@@ -1,515 +1,630 @@
 <!Doctype html>
 <html lang="en">
 
-        <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <title>Meraki</title>
-                <link rel="icon" href="images/all-img/.png">
-                <link rel="stylesheet" href="dist/style.css">
-                <link rel="stylesheet" href="css/stylus.css">
-                <link rel="stylesheet" href="dist/responsive.css">
-                <link rel="stylesheet" href="css/bootstrap-v4.1.3.min.css">
-                <link rel="stylesheet" href="css/animations.min.css">
-                <link rel="stylesheet" href="css/fontawesome-all-v5.3.1.min.css">
-                <link rel="stylesheet" href="css/swiper-4.2.0.css">
-                <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-                <link rel="stylesheet" href="css/mediaq.css">
-                <!-- switcher -->
-                <link href="css/switcher.css" rel="stylesheet" />
-        </head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Meraki</title>
+        <link rel="icon" href="images/all-img/.png">
+        <link rel="stylesheet" href="dist/style.css">
+        <link rel="stylesheet" href="css/stylus.css">
+        <link rel="stylesheet" href="dist/responsive.css">
+        <link rel="stylesheet" href="css/bootstrap-v4.1.3.min.css">
+        <link rel="stylesheet" href="css/animations.min.css">
+        <link rel="stylesheet" href="css/fontawesome-all-v5.3.1.min.css">
+        <link rel="stylesheet" href="css/swiper-4.2.0.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity=sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/mediaq.css">
+        <!-- switcher -->
+        <link href="css/switcher.css" rel="stylesheet"/>
+        <link href="images/all-img/favicon.png" rel="shortcut icon" type="image/x-icon"/>
+    </head>
 
-<body>
-    <!--header-part-->
-    <div class="header_banner header_banner_page clearfix">
-        <header>
-            <!--navbar-->
-            <nav class="navbar navbar-expand-sm animate " data-anim-type="fadeIn" data-anim-delay="400">
+    <body>
+        <!--header-part-->
+        <div class="header_banner header_banner_page clearfix">
+            <header>
+                <!--navbar-->
+                <nav
+                    class="navbar navbar-expand-sm animate "
+                    data-anim-type="fadeIn"
+                    data-anim-delay="400">
                     <div class="container navbar-containernt">
                         <!-- Brand -->
-                        <a class="navbar-brand" href="index.html"> <img src="images/all-img/g2636.png" alt="logo_img" class="img-fluid"> </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon fa fa-bars"> </span>
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/all-img/g2636.png" alt="logo_img" class="img-fluid">
+                        </a>
+                        <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon fa fa-bars"></span>
                         </button>
 
                         <!-- Links -->
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav nav justify-content-center">
-                            <li class="nav-item active"><a class="nav-link" href="index.html"> Home </a></li>
-                            <li class="nav-item"><a class="nav-link" href="sobre.html"> Sobre </a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                                Licencias
-                            </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="disenio-arquitectonico.html">Diseño arquitectónico</a>
-                                    <a class="dropdown-item" href="calculo-estructural.html">Calculo estructural</a>
-                                    <a class="dropdown-item" href="estudio-de-suelos.html">Estudio de suelos</a>
-                                    <a class="dropdown-item" href="estructura-juridica.html">Estructura jurídica</a>
-                                    <a class="dropdown-item" href="gestion-de-proyectos.html">Gestión del proyecto</a>
-                                </div>
-                            </li>
-                            <li class="nav-item"><a class="nav-link" href="licencias.html"> Componentes </a></li>
-                            <li class="nav-item"><a class="nav-link" href="permisos.html"> Permiso para remodelación </a></li>
-                            
-                            <!-- Dropdown -->
-                            <!-- <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                                Blog
-                            </a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="blog-sidebar-left.html"> Blog Sidebar Left </a>
-                                    <a class="dropdown-item" href="blog-sidebar-right.html"> Blog Sidebar right </a>
-                                    <a class="dropdown-item" href="blog-full-width.html"> Blog Full Width </a>
-                                    <a class="dropdown-item" href="blog-col-2.html"> Blog Col 2 </a>
-                                    <a class="dropdown-item" href="blog-details.html"> Blog Details </a>
-                                </div>
-                            </li> -->
-                            <!-- <li class="nav-item"><a class="nav-link" href="contacto.html"> Contacto </a></li> -->
-                        </ul>
+                            <ul class="navbar-nav nav justify-content-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="licencias.html">
+                                        Licencias de Construcción
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="permisos.html">
+                                        Permiso para remodelación
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Servicios</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="disenio-arquitectonico.html">Diseño arquitectónico</a>
+                                        <a class="dropdown-item" href="calculo-estructural.html">Calculo estructural</a>
+                                        <a class="dropdown-item" href="estudio-de-suelos.html">Estudio de suelos</a>
+                                        <a class="dropdown-item" href="estructura-juridica.html">Estructura jurídica</a>
+                                        <a class="dropdown-item" href="gestion-de-proyectos.html">Gestión del proyecto</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="sobre.html">
+                                        Nosotros
+                                    </a>
+                                </li>
 
-                        <!-- <div class="float-right head_feedbck flex-row">
-                            <div class="select_lng search-focus">
-                                <div class="search_form flex-row">
-                                    <a href="#"><i class="fa fa-search"> </i> </a>
-                                    <input type="text" class="search-hover" name="search" placeholder="search here...">
-                                </div>
+                                <!-- Dropdown -->
+                                <!-- <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"
+                                data-toggle="dropdown"> Blog </a> <div class="dropdown-menu"> <a
+                                class="dropdown-item" href="blog-sidebar-left.html"> Blog Sidebar Left </a> <a
+                                class="dropdown-item" href="blog-sidebar-right.html"> Blog Sidebar right </a> <a
+                                class="dropdown-item" href="blog-full-width.html"> Blog Full Width </a> <a
+                                class="dropdown-item" href="blog-col-2.html"> Blog Col 2 </a> <a
+                                class="dropdown-item" href="blog-details.html"> Blog Details </a> </div> </li>
+                                -->
+                                <!-- <li class="nav-item"><a class="nav-link" href="contacto.html"> Contacto
+                                </a></li> -->
+                            </ul>
 
-                                <select class="form-control">
-                                    <option value="en">English</option>
-                                    <option value="hi">Hindi</option>
-                                    <option value="af">Afrikaans</option>
-                                    <option value="sq">Albanian</option>
-                                    <option value="am">Amharic</option>
-                                </select>
-                                <i class="fas fa-angle-down"></i>
-                            </div>
-                        </div> -->
-                    </div>
+                            <!-- <div class="float-right head_feedbck flex-row"> <div class="select_lng
+                            search-focus"> <div class="search_form flex-row"> <a href="#"><i class="fa
+                            fa-search"> </i> </a> <input type="text" class="search-hover" name="search"
+                            placeholder="search here..."> </div> <select class="form-control"> <option
+                            value="en">English</option> <option value="hi">Hindi</option> <option
+                            value="af">Afrikaans</option> <option value="sq">Albanian</option> <option
+                            value="am">Amharic</option> </select> <i class="fas fa-angle-down"></i> </div>
+                            </div> -->
+                        </div>
                     </div>
                 </nav>
                 <!--close-navbar-->
-            <!-- page-title -->
-            <div class="hd-bnar bg_3">
-                <div class="margin-60 "></div>
-                <div class="page-title content-center animate" data-anim-type="fadeIn" data-anim-delay="300">
-                    <div class="page-title-inner">
-                        <h1>  Licencias de construcción <br> y sus componentes  </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
-    </div>
-    <!--home-slider-->
-
-    <div class="main-container page-gallery">
-        <!--section-Portfolio-->
-        <div class="our_portfolio animate" data-anim-type="fadeIn" data-anim-delay="300">
-            <div class="container-fluid">
-                <ul class="portfolio-tabs categories  text-center nav nav-pills" role="tablist">
-                    <li class="nav-item"><a  class="nav-link active" data-toggle="pill" data-filter="" href="#"> Licencias de construcción y sus componentes </a>
-                    </li>
-                    <!-- <li class="nav-item"><a class="nav-link" data-toggle="pill" data-filter=".themes" href="#"> themes </a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="pill" data-filter=".app" href="#"> app </a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="pill" data-filter=".web" href="#">web</a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="pill" data-filter=".plugins" href="#">plugins </a>
-                    </li> -->
-                </ul>
-            <div class="pt-3 bar-notorange">
-                <p>Es la autorización que expiden las curadurías urbanas en Bogotá D.C. (en otras ciudades o municipios donde no hay curadurías, lo hacen las alcaldías u oficinas de planeación), para construir, modificar, reconocer o dividir predios y edificaciones. Por medio de una licencia también se pueden autorizar o cambiar usos para un predio como comercio, educación, salud, vivienda etc.</p>
-                <br>
-                <p>Para obtener la aprobación de tu licencia, debes contar con un equipo interdisciplinario que incluya un Arquitecto especializado en Norma Urbana, Ingeniero civil, Geotecnista y quien revise la estructura jurídica de tu proyecto, para garantizar el éxito de la Licencia de Construcción. Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                <div class="margin-60"></div>
-                </div>
-            <!--==Bootstrap 4 collapse==-->
-            <div class="card p-5 my-4">
-                    <h2 class="bd-title">QUE TIPO DE LICENCIA NECESITO? / <br> MODALIDADES DE LICENCIA </h2>
-                    <div class="accordion accordion-custom_d" id="accordionExample">
-                            <div class="row">
-                                    <p><span class="firstcharacter drop2 p-3 mr-4"> Modo</span>Cada proyecto es diferente. Por eso es importante que te asesores de uno de nuestros Arquitectos Especialistas en Norma Urbana, para que determine el tipo de licencia o permiso que necesitas. En algunos proyectos no se requiere licencia y puedes realizar remodelaciones con un permiso de reparaciones locativas.   La idea es e esas palabras subrayadas sean un botón que lo remita a ese servicio en especial.</p>
-                                    <p><span class="firstcharacter drop2 p-3 mr-4"> Tipo</span>Dependiendo de las características de cada proyecto se aplican diferentes modalidades de licencia. Si quieres aprender un poco más de que se trata cada una, haz click en cualquiera de las modalidades enlistadas o comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                </div>
-                                <!-- obranueva -->
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            <span>  OBRA NUEVA </span> <i class="fa fa main"></i>
-                                        </button>
-                                    </div>
-    
-                                    <div id="collapseOne" class="fade collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p> Es la modalidad más comúnmente empleada. Se utiliza cuando la intención es construir una edificación en un lote vacío. Si en el predio ya existe una edificación que quieras demoler, deberás combinar esta modalidad con “DEMOLICIÓN TOTAL”. Comunicate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto. </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- ampliacion -->
-                                <div class="card">
-                                    <div class="card-header" id="headingFour">
-                                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                            <span> AMPLIACIÓN </span> <i class="fa -plus main"></i>
-                                        </button>
-                                    </div>
-                                    <div id="collapseFour" class="fade collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Se utiliza para incrementar el área construida de una edificación existente, deberás emplear esta modalidad para construir un piso adicional o tal vez incrementar un piso construido. Para esta modalidad tu predio ya debe contar con una licencia de construcción previa. Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- adecuacion -->
-                                <div class="card">
-                                    <div class="card-header" id="headingOne">
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                            <span>  ADECUACIÓN </span> <i class="fa fa main"></i>
-                                        </button>
-                                    </div>
-    
-                                    <div id="collapseOne" class="fade collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Es la autorización para cambiar el uso de una edificación o parte de ella, garantizando la permanencia total o parcial del inmueble original. Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- reconocimiento -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-    
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span> RECONOCIMIENTO </span> <i class="fa fa main"></i>
-                                        </button>
-    
-                                    </div>
-                                    <div id="collapseTwo" class="fade collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Esta modalidad es normalmente empleada cuando la alcaldía o cualquier ente de control nos solicita legalizar una construcción que ya existe y no cuenta con licencia de construcción. Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- modificacion -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-    
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span> MODIFICACIÓN </span> <i class="fa fa main"></i>
-                                        </button>
-    
-                                    </div>
-                                    <div id="collapseTwo" class="fade collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Es la autorización para variar el diseño arquitectónico o estructural de una edificación existente, sin incrementar su área construida. Para esta modalidad tu predio ya debe contar con una licencia de construcción previa. Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- restauracion -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-    
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span> RESTAURACIÓN / PATRIMONIO URBANO </span> <i class="fa fa main"></i>
-                                        </button>
-    
-                                    </div>
-                                    <div id="collapseTwo" class="fade collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                           <p>Este tipo de licencia se requiere para adelantar las obras tendientes a recuperar y adaptar un inmueble o parte de este, con el fin de conservar y revelar sus valores estéticos, históricos y simbólicos. Se fundamenta en el respeto por su integridad y autenticidad. Esta modalidad de licencia incluirá las liberaciones o demoliciones parciales de agregados de los bienes de interés cultural aprobadas por parte del Instituto Distrital de Patrimonio Cultural. En algunos casos también se requiere de la aprobación del Ministerio de Cultura. Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- propiedad horizontal -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-    
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span> PROPIEDAD HORIZONTAL </span> <i class="fa fa main"></i>
-                                        </button>
-    
-                                    </div>
-                                    <div id="collapseTwo" class="fade collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Esta modalidad se desarrolla cuando se requiera individualizar por medio de escrituras públicas y certificados de tradición y libertad independientes, las unidades resultantes de un proyecto arquitectónico de cualquier uso (residencial, comercial, industrial, etc.). Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- reforzamiento -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-    
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span> REFORZAMIENTO ESTRUCTURAL </span> <i class="fa fa main"></i>
-                                        </button>
-    
-                                    </div>
-                                    <div id="collapseTwo" class="fade collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Es la autorización para intervenir o reforzar la estructura de una edificación, con el objeto de acondicionarlos a niveles adecuados de seguridad sismorresistente de acuerdo con los requisitos de la Ley 400 de 1997, sus decretos reglamentarios, o las normas que los adicionen, modifiquen o sustituyan y el Reglamento colombiano de construcción sismorresistente y la norma que lo adicione, modifique o sustituya. Normalmente se aplica a construcciones que necesitan ser reconocidas. Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- demolicion -->
-                                <div class="card">
-                                    <div class="card-header" id="headingTwo">
-    
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                            <span> DEMOLICIÓN </span> <i class="fa fa main"></i>
-                                        </button>
-    
-                                    </div>
-                                    <div id="collapseTwo" class="fade collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Necesitarás este tipo de licencia para derribar total o parcialmente una o varias edificaciones existentes en uno o varios predios y deberá concederse de manera simultánea con cualquiera otra modalidad de licencia de construcción, usualmente se combina con obra nueva. Comunícate con nosotros para que un Ingeniero Calculista, especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- cerramiento -->
-                                <div class="card">
-                                    <div class="card-header" id="headingThree">
-    
-                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                            <span> CERRAMIENTO </span> <i class="fa fa- main"></i>
-                                        </button>
-    
-                                    </div>
-                                    <div id="collapseThree" class="fade collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                                        <div class="card-body">
-                                            <p>Necesitarás este tipo de licencia para encerrar de manera permanente un predio de propiedad privada usualmente aplicado a los antejardines. . Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te asesore para encontrar la solución más conveniente para tu proyecto.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-                <!--GALLERY-->
-                <div class="gallary-thumbs  mx-2 gallery">
-                    <div class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes app plugins">
-                        <div class="gallery-clm">
-                            <div class="overlay_img">
-                                <img src="images/gallery/1.jpg" class=" img-fluid" alt="img">
-                            </div>
-                            <div class="gallery-cont">
-                                <a class="btn main-btn white" href="images/gallery/1.jpg" data-fancybox="gallery"> View
-                                Product </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes web app">
-                        <div class="gallery-clm">
-                            <div class="overlay_img">
-                                <img src="images/gallery/5.jpg" class="img-fluid" alt="img">
-                            </div>
-                            <div class="gallery-cont">
-                                <a class="btn main-btn white" href="images/gallery/4.jpg" data-fancybox="gallery"> View
-                                Product </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes app ">
-                        <div class="gallery-clm">
-                            <div class="overlay_img">
-                                <img src="images/gallery/6.jpg" class=" img-fluid" alt="img">
-                            </div>
-                            <div class="gallery-cont">
-                                <a class="btn main-btn white" href="images/gallery/6.jpg" data-fancybox="gallery"> View
-                                Product </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6  web plugins">
-                        <div class="gallery-clm">
-                            <div class="overlay_img">
-                                <img src="images/gallery/3.jpg" class=" img-fluid" alt="img">
-                            </div>
-                            <div class="gallery-cont">
-                                <a class="btn main-btn white" href="images/gallery/3.jpg" data-fancybox="gallery"> View
-                                Product </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes web app">
-                        <div class="gallery-clm">
-                            <div class="overlay_img">
-                                <img src="images/gallery/5.jpg" class=" img-fluid" alt="img">
-                            </div>
-                            <div class="gallery-cont">
-                                <a class="btn main-btn white" href="images/gallery/5.jpg" data-fancybox="gallery"> View
-                                Product </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="gallery_product  col-lg-3 col-md-3 col-sm-6 themes web app">
-                        <div class="gallery-clm">
-                            <div class="overlay_img">
-                                <img src="images/gallery/4.jpg" class=" img-fluid" alt="img">
-                            </div>
-                            <div class="gallery-cont">
-                                <a class="btn main-btn white" href="images/gallery/4.jpg" data-fancybox="gallery"> View
-                                Product </a>
-                            </div>
+                <!-- page-title -->
+                <div class="hd-bnar bg_3">
+                    <div class="margin-60 "></div>
+                    <div
+                        class="page-title content-center animate"
+                        data-anim-type="fadeIn"
+                        data-anim-delay="300">
+                        <div class="page-title-inner">
+                            <h1>
+                                Porque debes contratar
+                                <br>
+                                con nosotros
+                            </h1>
                         </div>
                     </div>
                 </div>
-                <div class="margin-60 clearfix"></div>
-                <div class="gallery-load-more text-center">
-                    <a class="btn main-btn white" href="#"> Ver más </a>
-                </div>
-            </div>
-
+            </header>
         </div>
-        <!--//section-Portfolio-->
+        <!--home-slider-->
 
-        <!--mini-subscrib-->
-        <section class="mini_subscribe bg-2">
-            <div class="container">
-                <div class="row animate" data-anim-type="fadeIn" data-anim-delay="300">
-                    <div class="col-md-9 mini_subscribe-cont">
-                        <h2> Obtenga una asesoría! </h2>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed. </p>
+        <div class="main-container page-gallery">
+            <!--section-Portfolio-->
+            <div
+                class="our_portfolio animate"
+                data-anim-type="fadeIn"
+                data-anim-delay="300">
+                <div class="container-fluid">
+                    <ul class="portfolio-tabs categories  text-center nav nav-pills" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" data-filter="" href="#">
+                                    Porque debes contratar con nosotros
+                            </a>
+                        </li>
+                        <!-- <li class="nav-item"><a class="nav-link" data-toggle="pill"
+                        data-filter=".themes" href="#"> themes </a> </li> <li class="nav-item"><a
+                        class="nav-link" data-toggle="pill" data-filter=".app" href="#"> app </a></li>
+                        <li class="nav-item"><a class="nav-link" data-toggle="pill" data-filter=".web"
+                        href="#">web</a></li> <li class="nav-item"><a class="nav-link"
+                        data-toggle="pill" data-filter=".plugins" href="#">plugins </a> </li> -->
+                    </ul>
+                    <div class="pt-3 bar-notorange">
+                        <p>Es la autorización que expiden las curadurías urbanas en Bogotá D.C. (en
+                            otras ciudades o municipios donde no hay curadurías, lo hacen las alcaldías u
+                            oficinas de planeación), para construir, modificar, reconocer o dividir predios
+                            y edificaciones. Por medio de una licencia también se pueden autorizar o cambiar
+                            usos para un predio como comercio, educación, salud, vivienda etc.</p>
+                        <br>
+                        <p>Para obtener la aprobación de tu licencia, debes contar con un equipo
+                            interdisciplinario que incluya un Arquitecto especializado en Norma Urbana,
+                            Ingeniero civil, Geotecnista y quien revise la estructura jurídica de tu
+                            proyecto, para garantizar el éxito de la Licencia de Construcción. Comunícate
+                            con nosotros para que un Arquitecto Especialista en norma urbana te asesore para
+                            encontrar la solución más conveniente para tu proyecto.</p>
+                        <div class="margin-60"></div>
                     </div>
-                    <div class="col-md-3 mini_subscribe-btn pt-4">
-                        <a class="btn main-btn white" href="contacto.html"> CONTACTO </a>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!--//subscrib-->
-
-        <!--footer-strart-->
-        <footer>
-            <div class="footer_inner">
-                <div class="margin-80 clearfix"></div>
-                <div class="container">
-                    <!--footer-widgets-->
-                    <div class="footer-widgets row animate" data-anim-type="fadeIn" data-anim-delay="300">
+                    <!--==Bootstrap 4 collapse==-->
+                    <div class="servcs">
                         <div class="row">
-                            <div class="col-md-4 widgets-col">
-                                <h3><span>22.300 </span> Negocios Conectados </h3>
-                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.Sed ut perspiciatis omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore </p>
-                                <ul class="team_social">
-                                    <li>
-                                        <a href="#"> <i class="fab fa-facebook"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fab fa-twitter"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fab fa-instagram"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fab fa-google-plus-g"></i> </a>
-                                    </li>
-                                    <li>
-                                        <a href="#"> <i class="fab fa-youtube"></i> </a>
-                                    </li>
-                                </ul>
+                            <div class="col-md-6 p2em bgW">
+                                <h2>Licenciamiento de Construcción</h2>
+                                <p>Somos la primera empresa del país en especializarse en licenciamiento de construcción. Contamos con un equipo multidisciplinario enfocado única y exclusivamente en norma urbana.</p>
+                                <br>
+                                <p>Evaluamos las necesidades de tu proyecto, conforme las expectativas que se tengan para el mismo, en cuanto a número de pisos y usos que se pretenden aplicar en el predio. Este análisis se realiza en el marco de una viabilidad que es rigurosamente estudiada por un arquitecto especialista en norma urbana. De esta manera podemos garantizar 100% la aprobación de tu licencia de construcción.</p>
+                                <br>
+                                <p>En un negocio tradicionalmente manejado por “tramitadores” y “arquitectos independientes” hemos querido romper un paradigma y ofrecer un servicio de calidad, con transparencia y responsabilidad donde la gente pague por un servicio y obtenga una licencia de construcción. Un servicio que parte de la experiencia y formación profesional en norma urbana. Con respaldo técnico, jurídico y financiero que le dé garantías de respuesta a nuestros clientes.</p>
+                                <br>
+                                <p>Llámanos ahora mismo y recibe asesoría totalmente gratuita de un arquitecto especialista en licencias de construcción!</p>
+                                <br>
                             </div>
-                            <div class="col-md-8">
-                                <div class="row">
-                                    <div class="col-md-4 widgets-col">
-                                        <h3>Links de interés</h3>
-                                        <ul>
-                                            <li><a href="#"> Cunslting Marketing </a></li>
-                                            <li><a href="#"> Cunslting Marketing </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-4 widgets-col">
-                                        <h3> Nuestros Servicios </h3>
-                                        <ul>
-                                            <li><a href="#"> Cunslting Marketing </a></li>
-                                            <li><a href="#"> Cunslting Marketing </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                            <li><a href="#"> Convesion </a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-md-4 widgets-col ft-addres">
-                                        <h3> Encuéntranos en </h3>
-                                        <p>
-                                            <i class="fa fa-map-marker icon"></i>
-                                            <span>Bogotá, Colombia</span>
-                                        </p>
-                                        <p>
-                                            <i class="fa fa-phone"> </i>
-                                            <span>Llámanos: 111 428 5581</span>
-                                        </p>
-                                        <p>
-                                            <i class="far fa-envelope"></i>
-                                            <span> Pónte en contacto: info@Meraki.co </span>
-                                        </p>
-
-                                    </div>
-                                </div>
+                            <div class="col-md-6 p2em bgBl">
+                                <h2>Permisos de Construcción</h2>
+                                <p>Gestionamos para ti, ante la curaduría urbana, el permiso para adelantar actividades de remodelación en tu predio en tan solo 24 horas! Sin filas, sin salir de tu casa… paga on-line y recíbelo en la puerta de tu casa.</p>
+                                <br>
+                                <p>Un arquitecto especialista en norma urbana, elaborará y diligenciara el concepto de reparaciones locativas conforme las actividades que selecciones en el formato de diligenciamiento, para que puedas remodelar tu proyecto sin problemas.</p>
+                                <br>
+                                <p>Diligencia el formato y paga on line. No olvides revisar los términos y condiciones.</p>
+                                <img src="images/all-img/g2636.png" alt="" class="logoServices">
                             </div>
                         </div>
                     </div>
-                </div>
-                <!--//footer-widgets-->
-                <!--coppy-right-->
-                <div class="margin-80 xs-hiddn clearfix"></div>
-                <div class="coppy-right text-center">
-                    <p> @2018 Meraki. Derechos Reservados </p>
-                </div>
-                <!--./coppy-right-->
-            </div>
+                    <div class="card p-5 my-4">
+                        <h2 class="bd-title">QUE TIPO DE LICENCIA NECESITO? /
+                            <br>
+                            MODALIDADES DE LICENCIA
+                        </h2>
+                        <div class="accordion accordion-custom_d" id="accordionExample">
+                            <div class="row">
+                                <p>
+                                    <span class="firstcharacter drop2 p-3 mr-4">
+                                        Modo</span>Cada proyecto es diferente. Por eso es importante que te asesores de
+                                    uno de nuestros Arquitectos Especialistas en Norma Urbana, para que determine el
+                                    tipo de licencia o permiso que necesitas. En algunos proyectos no se requiere
+                                    licencia y puedes realizar remodelaciones con un permiso de reparaciones
+                                    locativas. La idea es e esas palabras subrayadas sean un botón que lo remita a
+                                    ese servicio en especial.</p>
+                                <p>
+                                    <span class="firstcharacter drop2 p-3 mr-4">
+                                        Tipo</span>Dependiendo de las características de cada proyecto se aplican
+                                    diferentes modalidades de licencia. Si quieres aprender un poco más de que se
+                                    trata cada una, haz click en cualquiera de las modalidades enlistadas o
+                                    comunícate con nosotros para que un Arquitecto Especialista en norma urbana te
+                                    asesore para encontrar la solución más conveniente para tu proyecto.</p>
+                            </div>
+                            <!-- obranueva -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            OBRA NUEVA
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
+                                </div>
 
-        </footer>
-    </div>
-<!--switcher-->
-    <!-- <section id="style-switcher" class="skin-chooser-container hide-skin-chooser">
-        <h2><a href="#"><i class=" fas fa-arrows-alt fa-spin"></i></a></h2>
-        <div class="skin-chooser">
-            <div class="skin-chooser-label">
-               Choose Color Code
-             </div>
-            <div class="skin-chooser-row skin-chooser-row-open">
-                <div class="color-picker">
-                    <input type="text" class="color" placeholder="Color picker" name="bs_theme_color" id="color" value="f45f47" />
-                    <div id="colorpicker"></div>
-                </div>
-                <button class="btn" id="colorcss" name="colorcss" value="#123456">Apply</button>
-            </div>
-        </div>
-        <div id="bs_color"></div>
-    </section> -->
-    <!--page-loader-->
-    <!-- <div id="page-anim-preloader">
-        <div class="page_preloader-inner content-center">
-            <div class="loader">
-            </div>
-        </div>
-    </div> -->
-    <!--/page-loader-->
-    <!-- Return to Top -->
-    <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-alt-circle-up h4"></i></a>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>
+                                            Es la modalidad más comúnmente empleada. Se utiliza cuando la intención es
+                                            construir una edificación en un lote vacío. Si en el predio ya existe una
+                                            edificación que quieras demoler, deberás combinar esta modalidad con “DEMOLICIÓN
+                                            TOTAL”. Comunicate con nosotros para que un Arquitecto Especialista en norma
+                                            urbana te asesore para encontrar la solución más conveniente para tu proyecto.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- ampliacion -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <button
+                                        class="btn btn-link btn-block text-left"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            AMPLIACIÓN
+                                        </span>
+                                        <i class="fa -plus main"></i>
+                                    </button>
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Se utiliza para incrementar el área construida de una edificación existente,
+                                            deberás emplear esta modalidad para construir un piso adicional o tal vez
+                                            incrementar un piso construido. Para esta modalidad tu predio ya debe contar con
+                                            una licencia de construcción previa. Comunícate con nosotros para que un
+                                            Arquitecto Especialista en norma urbana te asesore para encontrar la solución
+                                            más conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- adecuacion -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            ADECUACIÓN
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
+                                </div>
 
-    <!--./footer-->
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Es la autorización para cambiar el uso de una edificación o parte de ella,
+                                            garantizando la permanencia total o parcial del inmueble original. Comunícate
+                                            con nosotros para que un Arquitecto Especialista en norma urbana te asesore para
+                                            encontrar la solución más conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- reconocimiento -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
 
-    <!--JS bootstrap-->
-    <script src="https://weblizar.com/demo/html/Alturas/js/jquery-v3.3.1.min.js"></script>
-    <!-- Popper JS -->
-    <script src="https://weblizar.com/demo/html/Alturas/js/popper-v3.3.1.min.js"></script>
-    <script src="https://weblizar.com/demo/html/Alturas/js/bootstrap-v4.1.3.min.js"></script>
-    <script src="https://weblizar.com/demo/html/Alturas/js/animations.min.js"></script>
-    <script src="https://weblizar.com/demo/html/Alturas/js/jquery.fancybox.min.js"></script>
-    <script src="https://weblizar.com/demo/html/Alturas/js/swiper-4.2.0.min.js"></script>
-	 <!--switcher-->
-    <script src="https://weblizar.com/demo/html/Alturas/js/jqColorPicker.min.js"></script>
-    <script src="https://weblizar.com/demo/html/Alturas/js/switcher.js"></script>
-    <!-- switcher -->
-    <script src="https://weblizar.com/demo/html/Alturas/js/jquery.isotope.js"></script>
-    <script src="dist/custom-script.js"></script>
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            RECONOCIMIENTO
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
 
-</body>
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Esta modalidad es normalmente empleada cuando la alcaldía o cualquier ente de
+                                            control nos solicita legalizar una construcción que ya existe y no cuenta con
+                                            licencia de construcción. Comunícate con nosotros para que un Arquitecto
+                                            Especialista en norma urbana te asesore para encontrar la solución más
+                                            conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- modificacion -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
 
-</html>
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            MODIFICACIÓN
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
+
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Es la autorización para variar el diseño arquitectónico o estructural de una
+                                            edificación existente, sin incrementar su área construida. Para esta modalidad
+                                            tu predio ya debe contar con una licencia de construcción previa. Comunícate con
+                                            nosotros para que un Arquitecto Especialista en norma urbana te asesore para
+                                            encontrar la solución más conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- restauracion -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            RESTAURACIÓN / PATRIMONIO URBANO
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
+
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Este tipo de licencia se requiere para adelantar las obras tendientes a
+                                            recuperar y adaptar un inmueble o parte de este, con el fin de conservar y
+                                            revelar sus valores estéticos, históricos y simbólicos. Se fundamenta en el
+                                            respeto por su integridad y autenticidad. Esta modalidad de licencia incluirá
+                                            las liberaciones o demoliciones parciales de agregados de los bienes de interés
+                                            cultural aprobadas por parte del Instituto Distrital de Patrimonio Cultural. En
+                                            algunos casos también se requiere de la aprobación del Ministerio de Cultura.
+                                            Comunícate con nosotros para que un Arquitecto Especialista en norma urbana te
+                                            asesore para encontrar la solución más conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- propiedad horizontal -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            PROPIEDAD HORIZONTAL
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
+
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Esta modalidad se desarrolla cuando se requiera individualizar por medio de
+                                            escrituras públicas y certificados de tradición y libertad independientes, las
+                                            unidades resultantes de un proyecto arquitectónico de cualquier uso
+                                            (residencial, comercial, industrial, etc.). Comunícate con nosotros para que un
+                                            Arquitecto Especialista en norma urbana te asesore para encontrar la solución
+                                            más conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- reforzamiento -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            REFORZAMIENTO ESTRUCTURAL
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
+
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Es la autorización para intervenir o reforzar la estructura de una
+                                            edificación, con el objeto de acondicionarlos a niveles adecuados de seguridad
+                                            sismorresistente de acuerdo con los requisitos de la Ley 400 de 1997, sus
+                                            decretos reglamentarios, o las normas que los adicionen, modifiquen o sustituyan
+                                            y el Reglamento colombiano de construcción sismorresistente y la norma que lo
+                                            adicione, modifique o sustituya. Normalmente se aplica a construcciones que
+                                            necesitan ser reconocidas. Comunícate con nosotros para que un Arquitecto
+                                            Especialista en norma urbana te asesore para encontrar la solución más
+                                            conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- demolicion -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            DEMOLICIÓN
+                                        </span>
+                                        <i class="fa fa main"></i>
+                                    </button>
+
+                                </div>
+                                <div
+                                    id="collapseTwo"
+                                    class="fade collapse"
+                                    aria-labelledby="headingTwo"
+                                    data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <p>Necesitarás este tipo de licencia para derribar total o parcialmente una o
+                                            varias edificaciones existentes en uno o varios predios y deberá concederse de
+                                            manera simultánea con cualquiera otra modalidad de licencia de construcción,
+                                            usualmente se combina con obra nueva. Comunícate con nosotros para que un
+                                            Ingeniero Calculista, especialista en norma urbana te asesore para encontrar la
+                                            solución más conveniente para tu proyecto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- cerramiento -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+
+                                    <button
+                                        class="btn btn-link btn-block text-left collapsed"
+                                        type="button"
+                                        data-toggle="collapse"
+                                        data-target="#collapseTwo"
+                                        aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <span>
+                                            CERRAMIENTO
+                                        </span>
+                                        <i class="fa fa- main"></i>
+                                    </button>
+
+                                </div>
+                                <<div id="collapseTwo" class="fade collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample"> <div class="card-body"> <p>Necesitarás este
+                                tipo de licencia para encerrar de manera permanente un predio de propiedad
+                                privada usualmente aplicado a los antejardines. . Comunícate con nosotros para
+                                que un Arquitecto Especialista en norma urbana te asesore para encontrar la
+                                solución más conveniente para tu proyecto.</p> </div> </div> </div> </div>
+                                </div> </div> <!--GALLERY--> <div class="gallary-thumbs mx-2 gallery"> <div
+                                class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes app
+                                plugins"> <div class="gallery-clm"> <div class="overlay_img"> <img
+                                src="images/gallery/1.jpg" class=" img-fluid" alt="img"> </div> <div
+                                class="gallery-cont"> <a class="btn main-btn white" href="images/gallery/1.jpg"
+                                data-fancybox="gallery"> View Product </a> </div> </div> </div> <div
+                                class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes web app">
+                                <div class="gallery-clm"> <div class="overlay_img"> <img
+                                src="images/gallery/5.jpg" class="img-fluid" alt="img"> </div> <div
+                                class="gallery-cont"> <a class="btn main-btn white" href="images/gallery/4.jpg"
+                                data-fancybox="gallery"> View Product </a> </div> </div> </div> <div
+                                class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes app ">
+                                <div class="gallery-clm"> <div class="overlay_img"> <img
+                                src="images/gallery/6.jpg" class=" img-fluid" alt="img"> </div> <div
+                                class="gallery-cont"> <a class="btn main-btn white" href="images/gallery/6.jpg"
+                                data-fancybox="gallery"> View Product </a> </div> </div> </div> <div
+                                class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 web plugins">
+                                <div class="gallery-clm"> <div class="overlay_img"> <img
+                                src="images/gallery/3.jpg" class=" img-fluid" alt="img"> </div> <div
+                                class="gallery-cont"> <a class="btn main-btn white" href="images/gallery/3.jpg"
+                                data-fancybox="gallery"> View Product </a> </div> </div> </div> <div
+                                class="gallery_product gallery-item col-lg-3 col-md-3 col-sm-6 themes web app">
+                                <div class="gallery-clm"> <div class="overlay_img"> <img
+                                src="images/gallery/5.jpg" class=" img-fluid" alt="img"> </div> <div
+                                class="gallery-cont"> <a class="btn main-btn white" href="images/gallery/5.jpg"
+                                data-fancybox="gallery"> View Product </a> </div> </div> </div> <div
+                                class="gallery_product col-lg-3 col-md-3 col-sm-6 themes web app"> <div
+                                class="gallery-clm"> <div class="overlay_img"> <img src="images/gallery/4.jpg"
+                                class=" img-fluid" alt="img"> </div> <div class="gallery-cont"> <a class="btn
+                                main-btn white" href="images/gallery/4.jpg" data-fancybox="gallery"> View
+                                Product </a> </div> </div> </div> </div> <div class="margin-60 clearfix"></div>
+                                <div class="gallery-load-more text-center"> <a class="btn main-btn white"
+                                href="#"> Ver más </a> </div> </div> </div> <!--//section-Portfolio-->
+                                <!--mini-subscrib--> <section class="mini_subscribe bg-2"> <div
+                                class="container"> <div class="row animate" data-anim-type="fadeIn"
+                                data-anim-delay="300"> <div class="col-md-9 mini_subscribe-cont"> <h2> Obtenga
+                                una asesoría! </h2> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed. </p> </div> <div class="col-md-3 mini_subscribe-btn pt-4"> <a class="btn
+                                main-btn white" href="contacto.html"> CONTACTO </a> </div> </div> </div>
+                                </section> <!--//subscrib--> <!--footer-strart--> <footer> <div
+                                class="footer_inner"> <div class="margin-80 clearfix"></div> <div
+                                class="container"> <!--footer-widgets--> <div class="footer-widgets row animate"
+                                data-anim-type="fadeIn" data-anim-delay="300"> <div class="row"> <div
+                                class="col-md-4 widgets-col"> <h3><span>22.300 </span> Negocios Conectados </h3>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore dolore magna aliqua.Sed ut perspiciatis omnis iste
+                                natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                                eaque ipsa quae ab illo inventore </p> <ul class="team_social"> <li> <a
+                                href="#"> <i class="fab fa-facebook"></i> </a> </li> <li> <a href="#"> <i
+                                class="fab fa-twitter"></i> </a> </li> <li> <a href="#"> <i class="fab
+                                fa-instagram"></i> </a> </li> <li> <a href="#"> <i class="fab
+                                fa-google-plus-g"></i> </a> </li> <li> <a href="#"> <i class="fab
+                                fa-youtube"></i> </a> </li> </ul> </div> <div class="col-md-8"> <div
+                                class="row"> <div class="col-md-4 widgets-col"> <h3>Links de interés</h3> <ul>
+                                <li><a href="#"> Cunslting Marketing </a></li> <li><a href="#"> Cunslting
+                                Marketing </a></li> <li><a href="#"> Convesion </a></li> <li><a href="#">
+                                Convesion </a></li> <li><a href="#"> Convesion </a></li> <li><a href="#">
+                                Convesion </a></li> </ul> </div> <div class="col-md-4 widgets-col"> <h3>
+                                Nuestros Servicios </h3> <ul> <li><a href="#"> Cunslting Marketing </a></li>
+                                <li><a href="#"> Cunslting Marketing </a></li> <li><a href="#"> Convesion
+                                </a></li> <li><a href="#"> Convesion </a></li> <li><a href="#"> Convesion
+                                </a></li> <li><a href="#"> Convesion </a></li> </ul> </div> <div class="col-md-4
+                                widgets-col ft-addres"> <h3> Encuéntranos en </h3> <p> <i class="fa
+                                fa-map-marker icon"></i> <span>Bogotá, Colombia</span> </p> <p> <i class="fa
+                                fa-phone"> </i> <span>Llámanos: 111 428 5581</span> </p> <p> <i class="far
+                                fa-envelope"></i> <span> Pónte en contacto: info@Meraki.co </span> </p> </div>
+                                </div> </div> </div> </div> </div> <!--//footer-widgets--> <!--coppy-right-->
+                                <div class="margin-80 xs-hiddn clearfix"></div> <div class="coppy-right
+                                text-center"> <p> @2018 Meraki. Derechos Reservados </p> </div>
+                                <!--./coppy-right--> </div> </footer> </div> <!--switcher--> <!-- <section
+                                id="style-switcher" class="skin-chooser-container hide-skin-chooser"> <h2><a
+                                href="#"><i class=" fas fa-arrows-alt fa-spin"></i></a></h2> <div
+                                class="skin-chooser"> <div class="skin-chooser-label"> Choose Color Code </div>
+                                <div class="skin-chooser-row skin-chooser-row-open"> <div class="color-picker">
+                                <input type="text" class="color" placeholder="Color picker"
+                                name="bs_theme_color" id="color" value="f45f47" /> <div id="colorpicker"></div>
+                                </div> <button class="btn" id="colorcss" name="colorcss"
+                                value="#123456">Apply</button> </div> </div> <div id="bs_color"></div>
+                                </section> --> <!--page-loader--> <!-- <div id="page-anim-preloader"> <div
+                                class="page_preloader-inner content-center"> <div class="loader"> </div> </div>
+                                </div> --> <!--/page-loader--> <!-- Return to Top --> <a href="javascript:"
+                                id="return-to-top"><i class="fas fa-arrow-alt-circle-up h4"></i></a>
+                                <!--./footer--> <!--JS bootstrap--> <script
+                                src="https://weblizar.com/demo/html/Alturas/js/jquery-v3.3.1.min.js"></script>
+                                <!-- Popper JS --> <script
+                                src="https://weblizar.com/demo/html/Alturas/js/popper-v3.3.1.min.js"></script>
+                                <script
+                                src="https://weblizar.com/demo/html/Alturas/js/bootstrap-v4.1.3.min.js"></script>
+                                <script
+                                src="https://weblizar.com/demo/html/Alturas/js/animations.min.js"></script>
+                                <script
+                                src="https://weblizar.com/demo/html/Alturas/js/jquery.fancybox.min.js"></script>
+                                <script
+                                src="https://weblizar.com/demo/html/Alturas/js/swiper-4.2.0.min.js"></script>
+                                <!--switcher--> <script
+                                src="https://weblizar.com/demo/html/Alturas/js/jqColorPicker.min.js"></script>
+                                <script src="https://weblizar.com/demo/html/Alturas/js/switcher.js"></script>
+                                <!-- switcher --> <script
+                                src="https://weblizar.com/demo/html/Alturas/js/jquery.isotope.js"></script>
+                                <script src="dist/custom-script.js"></script> </body> </html>

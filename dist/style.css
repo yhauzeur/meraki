@@ -644,7 +644,7 @@ li.nav-item {
 }
 
 .bg-2 {
-    background-color: #1f1d35;
+    background-color: #969191;
 }
 
 .margin-40 {
@@ -956,7 +956,7 @@ section.our-services {
 
 .col-sm-6.col-xs-6.float-right {
     padding: 60px !important;
-    background: #1f1d35;
+    background: #969191;
 }
 
 .col-sm-6.col-xs-6.float-right .gallery-clm {
@@ -1020,7 +1020,7 @@ ul.portfolio-tabs.categories {
 .our-clients {
     padding: 100px 0px;
     color: #fff;
-    background: linear-gradient(54deg, #1f1d35 82%, var(--main-color) 20%);
+    background: linear-gradient(54deg, #969191 82%, var(--main-color) 20%);
 }
 
 .our-clients .swiper-slide {
@@ -1054,7 +1054,7 @@ ul.portfolio-tabs.categories {
 .our-cases {
     padding: 100px 0px;
     color: #fff;
-    background: linear-gradient(131deg, #1f1d35 21%, #fff 20%);
+    background: linear-gradient(131deg, #969191 21%, #fff 20%);
 }
 
 .col-md-6.cases-catipon {
@@ -1081,7 +1081,7 @@ ul.portfolio-tabs.categories {
 .our-clients.our-team.clearfix {
     padding: 100px 0px;
     color: #fff;
-    background: linear-gradient(54deg, #1f1d35 82%, #ffffff 20%);
+    background: linear-gradient(54deg, #969191 82%, #ffffff 20%);
 }
 
 .swiper-slide-inner {
@@ -1149,7 +1149,7 @@ ul.portfolio-tabs.categories {
 .bzniss_analysis {
     padding: 100px 0px;
     color: #fff;
-    background: linear-gradient(-54deg, var(--main-color) 82%, #1f1d35 20%);
+    background: linear-gradient(-54deg, var(--main-color) 82%, #969191 20%);
 }
 
 .bzniss_analysis .swiper-slide img {
@@ -1364,8 +1364,8 @@ footer a {
     position: absolute;
     width: 60%;
     height: 60%;
-    background-color: #1f1d35;
-    background: #1f1d35;
+    background-color: #969191;
+    background: #969191;
 }
 
 /* ----------------------------------------------------------------
@@ -1466,7 +1466,7 @@ button.btn.btn-link.btn-block:hover {
 
 .accordion-custom_d .card-header .btn.collapsed {
     color: #ffffff;
-    background-color: #1f1d35;
+    background-color: #969191;
     font-size: 20px;
 }
 
@@ -1878,7 +1878,7 @@ section.container.margin-m-100 {
 /* .gallery_product:nth-of-type(3n) {
 	padding:40px!important;
     max-width: 49.99%!important;
-     background-color: #1f1d35!important;
+     background-color: #969191!important;
 } */
 .isotope-item {
     z-index: 1;
@@ -1972,12 +1972,12 @@ span.label_g {
     padding: 100px 0px;
     /* background-color: var(--main-color); */
     color: #fff;
-    background: linear-gradient(54deg, #1f1d35 82%, #ffffff 20%);
+    background: linear-gradient(54deg, #969191 82%, #ffffff 20%);
 }
 
 .what-we-do {
     padding: 100px 0px;
-    background: linear-gradient(126deg, #1f1d35 20%, #ffffff 10%);
+    background: linear-gradient(126deg, #969191 20%, #ffffff 10%);
 }
 
 /* ----------------------------------------------------------------
@@ -1985,7 +1985,7 @@ span.label_g {
 -----------------------------------------------------------------*/
 .our-testimonial {
     padding: 100px 0px;
-    background: linear-gradient(126deg, #1f1d35 20%, #ffffff 10%);
+    background: linear-gradient(126deg, #969191 20%, #ffffff 10%);
 }
 
 .our-testimonial i.fas.fa-quote-right {
@@ -2069,7 +2069,7 @@ span.label_g {
 .about-page .our-team {
     padding: 100px 0px;
     color: #fff;
-    background: linear-gradient(54deg, #1f1d35 82%, #ffffff 20%);
+    background: linear-gradient(54deg, #969191 82%, #ffffff 20%);
 }
 
 .blog-slider {

@@ -1,0 +1,7 @@
+poner en el header un display fixed con los datos
+poner en el footer un display fixed con los telefonos y el Whatsapp
+
+cambiar los testimonios por las marcas
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	font-family: 'Open Sans', sans-serif;

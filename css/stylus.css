@@ -1,3 +1,7 @@
+*,
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 .bar-notorange {
   margin-top: 20px;
   padding-left: 40%;
@@ -20,9 +24,50 @@
   margin: auto;
   display: block;
 }
+.cta {
+  background: #ff6d6d;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 20px;
+  top: 10px;
+}
+.cta a,
+.cta p {
+  text-align: right;
+  color: #fff;
+  font-size: 0.8em;
+}
 #description {
   font-size: 0.8em;
   color: #808080;
+}
+.dualBtn {
+  bottom: 20px;
+  display: inline-block;
+  right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+.dualBtn a {
+  color: #fff;
+}
+.dualBtn a:hover {
+  color: #1f1d35;
+}
+.dualBtn .main {
+  padding: 5px;
+  border-radius: 0 50px 50px 0;
+  background: #ff6d6d;
+}
+.dualBtn .grey {
+  padding: 5px;
+  border-radius: 50px 0 0 50px;
+  background: #969191;
 }
 .firstcharacter {
   font-size: 2em;
@@ -65,7 +110,7 @@
   background: #fff;
 }
 .bgBl {
-  background: #1f1d35;
+  background: #969191;
   color: #fff;
   padding: 2em;
 }

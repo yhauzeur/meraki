@@ -1,7 +1,10 @@
 mainBlue = #1f1d35
 maincolor = #ff6d6d
 mainpink = #f45f47
-
+darkGrey = #969191
+*, body {
+  font-family: 'Open Sans', sans-serif;
+}
 .bar-notorange
     margin-top: 20px
     padding-left: 40%
@@ -12,7 +15,7 @@ mainpink = #f45f47
     padding: 0px
     margin: 0px
     border: 0px
-    
+
 .card, .card-body
     & h2, p
         color: black
@@ -20,10 +23,45 @@ mainpink = #f45f47
     width: 90%
     margin: auto
     display: block
-    
+
+.cta
+    background: maincolor
+    margin: 0
+    padding: 0
+    position: fixed
+    right 20px
+    top 10px
+    & a, p
+        text-align: right
+        color white
+        font-size: 0.8em
+
 #description
     font-size: 0.8em
     color grey
+
+.dualBtn
+    bottom: 20px
+    display: inline-block
+    right 50px
+    margin-left: auto
+    margin-right: auto
+    position: fixed
+    text-align: center
+    text-decoration: none
+    width: 200px
+    & a
+        color white
+       & a:hover
+            color mainBlue
+    & .main
+        padding: 5px
+        border-radius: 0 50px 50px 0
+        background: maincolor
+    & .grey
+        padding: 5px
+        border-radius: 50px 0 0 50px
+        background: darkGrey
 
 .firstcharacter
     font-size: 2em
@@ -65,7 +103,7 @@ mainpink = #f45f47
     background white
     
 .bgBl
-    background mainBlue
+    background darkGrey
     color white
     padding 2em
 

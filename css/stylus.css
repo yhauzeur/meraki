@@ -97,6 +97,10 @@ body {
 .p2em {
   padding: 2em;
 }
+#redchainColor {
+  color: #ff6d6d;
+  font-family: Verdana;
+}
 .servcs {
   color: #000;
   padding: 2em;

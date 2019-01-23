@@ -238,9 +238,9 @@
 
         var mainSliderOptions = {
             loop: true,
-            speed: 1000,
+            speed: 2000,
             autoplay: {
-                delay: 3000
+                delay: 6000
             },
             loopAdditionalSlides: 10,
             grabCursor: true,
@@ -327,7 +327,7 @@
             $(this).prop('Counter', 0).animate({
                 Counter: $(this).text()
             }, {
-                duration: 5000,
+                duration: 8000,
                 easing: 'swing',
                 step: function (now) {
                     $(this).text(Math.ceil(now));

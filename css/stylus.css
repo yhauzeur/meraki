@@ -78,6 +78,11 @@ body {
   height: auto;
   width: 100%;
 }
+@media screen and (max-width: 444px) {
+  #pb-30px {
+    padding-bottom: 50px;
+  }
+}
 #mainColor {
   color: #ff6d6d;
 }

@@ -47,6 +47,31 @@ body {
   font-size: 0.8em;
   color: #808080;
 }
+.develop {
+  background: #fff;
+}
+.develop .bd-title {
+  margin-left: 100px;
+}
+.develop h2 {
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 2em;
+  margin-bottom: 0px;
+}
+.develop p {
+  color: #000;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.develop #pb-4 {
+  padding-bottom: 40px;
+}
+.displayInline {
+  float: left;
+  padding-right: 10px;
+}
 .dualBtn {
   bottom: 20px;
   display: inline-block;

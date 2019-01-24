@@ -108,6 +108,11 @@ body {
     padding-bottom: 50px;
   }
 }
+@media screen and (max-width: 748px) {
+  .card button span {
+    font-size: 0.8em;
+  }
+}
 #mainColor {
   color: #ff6d6d;
 }
